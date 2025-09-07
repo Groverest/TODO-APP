@@ -1,10 +1,10 @@
-const CrossIcon = () => {
+const IconCross = () => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke="currentColor"
+            stroke="#808080"
             className="size-6"
         >
             <path
@@ -16,4 +16,4 @@ const CrossIcon = () => {
     );
 };
 
-export default CrossIcon;
+export default IconCross;
