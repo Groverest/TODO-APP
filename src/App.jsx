@@ -87,12 +87,10 @@ const App = () => {
         <div
             className="bg-[url('./assets/images/bg-mobile-light.jpg')] 
         bg-no-repeat bg-contain min-h-screen dark:bg-black
-         bg-gray-300 transition-all duration-1000
+         bg-gray-300 transition-all duration-500
          dark:bg-[url('./assets/images/bg-mobile-dark.jpg')]
          md:bg-[url('./assets/images/bg-desktop-light.jpg')]
          md:dark:bg-[url('./assets/images/bg-desktop-dark.jpg')]
-         md:min-w-sm
-         
          "
         >
             <Header />
