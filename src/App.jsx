@@ -87,7 +87,7 @@ const App = () => {
         <div
             className="bg-[url('./assets/images/bg-mobile-light.jpg')] 
         bg-no-repeat bg-contain min-h-screen dark:bg-black
-         bg-gray-300 transition-all duration-500
+         bg-gray-300
          dark:bg-[url('./assets/images/bg-mobile-dark.jpg')]
          md:bg-[url('./assets/images/bg-desktop-light.jpg')]
          md:dark:bg-[url('./assets/images/bg-desktop-dark.jpg')]
@@ -113,7 +113,7 @@ const App = () => {
                 <TodoFilter changeFilter={changeFilter} />
             </main>
 
-            <footer className="text-center mt-8 dark:text-gray-400">
+            <footer className="text-center mt-8 transition-all duration-500 dark:text-gray-400">
                 Drag and drop to reorder list
             </footer>
         </div>

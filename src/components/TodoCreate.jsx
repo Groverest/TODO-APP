@@ -17,7 +17,7 @@ const TodoCreate = ({ createTodo }) => {
         <form
             onSubmit={handleSubmitAddTodo}
             className="bg-white rounded-md overflow-hidden 
-            py-4 flex gap-4 items-center px-4 transition-all duration-500 dark:bg-gray-900"
+            py-4 flex gap-4 items-center px-4 dark:bg-gray-900"
         >
             <span className=" text-gray-400 flex-none rounded-full border-2 w-5 h-5 inline-block"></span>
             <input
