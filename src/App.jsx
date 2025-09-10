@@ -113,7 +113,7 @@ const App = () => {
                 <TodoFilter changeFilter={changeFilter} />
             </main>
 
-            <footer className="text-center mt-8 transition-all duration-500 dark:text-gray-400">
+            <footer className="text-center mt-8 dark:text-gray-400">
                 Drag and drop to reorder list
             </footer>
         </div>
