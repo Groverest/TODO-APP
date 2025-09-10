@@ -10,7 +10,7 @@ const TodoItem = React.forwardRef(
             <article
                 {...props}
                 ref={ref}
-                className="flex gap-4 pb-4 pt-4 border-b-gray-400 border-b px-4  dark:bg-gray-900"
+                className="flex gap-4 pb-4 pt-4 border-b-gray-400 border-b px-4 transition-all duration-500 dark:bg-gray-900"
             >
                 <button
                     className={`h-5 w-5 flex-none rounded-full border-2 ${
